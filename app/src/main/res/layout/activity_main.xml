@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nanchen.rxjava2examples.module.view.WLLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/wl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.nanchen.rxjava2examples.module.view.MyWebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:scrollbars="none"/>
+
+    <com.nanchen.rxjava2examples.module.view.MyListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:overScrollMode="never"/>
+
+</com.nanchen.rxjava2examples.module.view.WLLayout>
